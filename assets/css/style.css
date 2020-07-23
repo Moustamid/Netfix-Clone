@@ -1,0 +1,525 @@
+/* Font-family links  */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+/* Css Reset  */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+
+
+
+body{
+
+  background: #141414;
+ 
+}
+
+
+
+a{
+  
+  text-decoration: none;
+
+}
+
+h3 {
+  color: #e5e5e5;
+  padding-bottom: 15px;
+}
+
+h4 {
+  padding: 12px;
+}
+
+
+/* Utility Classes */
+
+/* errorMessage */
+
+.errorBanner{
+  
+  color: #fff;
+  position:  absolute ;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+.scrollbars_none::-webkit-scrollbar {
+  display: none;
+}
+
+
+.noScroll{
+
+  white-space: normal;
+}
+
+
+.seen{
+   color: #2ecc71;
+   font-size: 26px;
+   position: absolute;
+   top: 5px;
+   left: 5px;
+}
+
+
+/* signIn  FORM */
+
+    /* flex Parent 1 */
+   .signInContainer{  
+      
+      background: #efefee;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    
+    /* flex son 1.1  */
+
+  .signInContainer .column{
+
+  background: #fff;
+  min-height: 300px;
+  max-height: 100% ;
+  width: 450px ;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px ;
+  padding: 20px 35px ;
+  overflow-y: auto;
+
+
+  }
+  
+  .signInContainer .column form{
+   display: flex;
+   flex-direction: column;
+
+  }
+
+  .signInContainer .column form input[type="text"] , 
+  .signInContainer .column form input[type="email"] , 
+  .signInContainer .column form input[type="password"]  
+  {
+   font-size : 14px;
+   margin: 10px 0 ;
+   border: none;
+   border-bottom: 1px solid #dedede;
+  }
+
+  .signInContainer .column form input[type="submit"]  
+  {
+    background: #4285f4;
+    color: #fff;
+    height: 36px;
+    width: 88px;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 200;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+  }
+
+
+/* signIn  header styling FORM */
+
+.signInContainer .column .header{
+
+  padding: 20px 0;
+  
+}
+
+.signInContainer .column .header h3{
+
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 32px;
+   margin: 0;
+   padding-top: 16px;
+   color: #000;
+
+}
+
+.signInContainer .column .header span{
+
+  font-size: 14px;
+
+}
+
+
+/* logo  */
+
+  .signInContainer .column .header img{
+  
+    width: 110px;
+  
+  }
+
+/* form links */
+
+  .signInContainer .signInMessage{
+  
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  /* Form errorMessage */
+
+  .errorMessage{
+    
+    color: #f00;
+    font-size: 14px;
+    font-family: 400;
+    text-align: center; 
+
+  }
+ 
+  /* Preview Video & image */
+   
+  .previewContainer{
+    
+    position: relative;
+    display: flex;
+  }
+
+  .prevewCategories h1{
+    color: #e5e5e5;
+    padding-top : 10px ; 
+    padding-bottom: 20px;
+  }
+
+
+  .previewContainer .previewImage , 
+  .previewContainer .previewVideo  {
+    
+    width: 100%;
+
+  }
+
+
+  .previewContainer .previewOverlay{
+      
+     background-color: rgba(0, 0, 0, 0.3);
+     width: 100%;
+     height: 100%;
+     position: absolute;
+
+    }
+    
+    .previewContainer .previewOverlay .mainDetails {
+      
+      
+      position: relative;
+      top: 35%;
+      margin-left: 50px;
+      
+     display: flex;
+     flex-direction: column;
+     
+  }
+
+  .previewContainer .previewOverlay .mainDetails h3{
+    
+    color: #fff;
+     font-size: 40px;
+     margin: 15px 0;
+     
+    }
+    
+  .previewContainer .previewOverlay .mainDetails h4{
+    
+    color: #fff;
+     font-size: 20px;
+     margin: 15px 0;
+     
+    }
+    
+    .previewContainer .previewOverlay .mainDetails button{
+      
+      background-color: rgba(51, 51, 51, 0.4);
+      color: #fff;
+      border: none;
+      min-width: 150px;
+      padding: 0  38px;
+      height: 50px;
+      max-height: 50px;
+      font-size: 18px;
+      border-radius: 2px;
+      margin-bottom: 15px;
+      margin-right: 5px;
+      cursor: pointer;
+     
+    }
+
+    .previewContainer .previewOverlay .mainDetails button i{
+      
+    
+      color: inherit;
+   
+     
+    }
+
+    .previewContainer .previewOverlay .mainDetails button:hover{
+      
+      background: #e6e6e6;
+      color: #000 ;
+   
+     
+    }
+    
+    
+    /* Entities container  */
+
+    .container{
+
+      min-width: 1050px;
+      min-height: 100%;
+      background: #141414;
+
+      
+    }
+    
+
+
+    .previewContaner.small {
+
+      width: 230px;
+      height: 129px;
+      margin-right: 4px;
+      display: inline-flex;
+
+    }
+
+    .previewContaner.small  img{
+
+      width: 100%;
+      height: 100%;
+      object-fit: cover ;
+
+    }
+
+    .prevewCategories{
+    
+      padding: 0 50px;
+    }
+
+    .category{
+    
+      display: flex;
+      flex-direction: column;
+      padding: 10px 0;
+      overflow-X: auto;
+      overflow-y: hidden;
+      bottom: 0;
+    }
+    
+    .entities{
+      
+      overflow-x: auto;
+      overflow-y: hidden;
+      white-space: nowrap;
+
+    }
+    
+
+    body > div > div.prevewCategories > div:nth-child(1) > a > h3 {
+      padding-top: 20px;
+    }
+    
+    body > div > div:nth-child(2) > h3 {
+      padding-top: 20px; 
+    }
+
+   /* seasonProvider */
+
+    .season{
+    
+     display: flex; 
+     flex-direction: column;
+     padding: 10px 50px;
+     
+    }
+    
+     .season .videos{
+      
+      overflow-x: auto;
+      overflow-y: hidden;
+      white-space: nowrap;
+      
+    }
+    
+    .episodeContainer{
+      
+    display: inline-flex;
+    justify-content: center;
+    margin-right: 4px;
+   }
+   .episodeContainer .contents{
+      
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    position: relative;
+   }
+   
+   
+   .episodeContainer img{
+      
+     widows: 230px; 
+     height: 129px;
+     object-fit: cover;
+   }
+   
+   .episodeContainer .videoInfo h4,
+   .episodeContainer span{
+     
+     color: #fff;
+     width: 100%;
+     white-space: normal;
+   }
+   
+   .episodeContainer .videoInfo{
+      
+     max-width: 200px;
+     overflow-y: auto;
+   }
+
+   
+ 
+    
+   /* watch.php */
+
+
+   .watchContainer video{
+      width: 100%;
+   }
+ 
+  
+   .videoControls{
+   
+     position: absolute ;
+     width: 100%;
+     z-index: 1;
+     display: flex;
+     align-items: center ;
+     background-color: rgba(0, 0, 0, 0.3);
+
+   }
+
+   .videoControls h1{
+   
+     color: #fff;
+
+   }
+
+   .videoControls button{
+   
+    font-size: 50px;
+    padding: 50px;
+    color: #fff ;
+    background-color: transparent;
+    border: none;
+   }
+
+   .videoControls button i{
+    color: #fff ;
+   }
+
+   
+   /* videoControls Next videoc */
+
+
+   .upNext{
+
+    height: 100%;
+    justify-content: center;
+
+   }
+
+   .upNextContainer button {
+     padding: 0;
+   }
+
+
+   .upNextContainer h2 ,
+   .upNextContainer h3 {
+     color: #fff;
+     padding: 5px;
+   }
+
+   .watchNav{
+      z-index: 2;
+   }
+
+
+   /* NavBar */
+
+   .topBar{
+     position: fixed;
+     width: 100%;
+     z-index: 1;
+     display: flex;
+     align-items: center;
+     padding: 0 60px;
+     height: 70px;
+     min-width: 1050px;
+   }
+    
+   .topBar.scrolled{
+     background-color: #141414;
+     transition: background-color 200ms linear;
+   }
+
+
+
+   .topBar .logoContainer{
+     height: 50px;
+     padding-right: 20px;
+   }
+
+   .topBar .logoContainer img{
+     height: 100%;
+   }
+
+   .topBar .navliks{
+     display: flex;
+     list-style: none;
+   }
+   
+   .topBar .navliks a{
+     color: #fff;
+     font-size: 14px;
+     margin-left: 20px;
+      }
+    
+    .topBar .rightItems{
+      flex : 1;
+      text-align: right;
+    }
+   
+    .topBar .rightItems i{
+      color: #fff;
+      font-size: 20px;
+      margin-left: 10px;
+    }
+    
+
+
+
+   
+ 
+ 
