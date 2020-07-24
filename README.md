@@ -1,2 +1,2 @@
 "# Netflix" 
- this is Netfix clone application .
+ this is Netfix clone application . 
