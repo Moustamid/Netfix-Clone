@@ -1,7 +1,7 @@
 # Netfix .
  - this is a Netfix clone application based on  Html , css , JavaScript, PHP and MySQL . 
  - Using Xampp and Myphpadmin database.
- - Live Demo : link will be added after the project is finished and deployer . ( Thanks you for your Patients :) ) 
+ - Live Demo : link will be added after the project is finished and deployer . ( Thanks you for your patience :)   ) 
  
 # Project Pages : 
  
