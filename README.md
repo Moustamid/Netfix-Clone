@@ -6,7 +6,7 @@
 # Project Pages : 
  
  - Register/Login pages
- - Pges : Home - Movies - TV shows 
+ - Home - Movies - TV shows 
  - comming soon : Search page - Account page - Paypal payment subscription integration 
  
  
