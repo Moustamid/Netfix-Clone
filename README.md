@@ -24,7 +24,7 @@
   
   
   
-  ![](snapchat/S3.PNG)
+  ![](snapchat/S3.PNG) 
   
  
   
