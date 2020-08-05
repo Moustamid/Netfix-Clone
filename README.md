@@ -1,18 +1,17 @@
 # Netfix .
  - this is a Netfix clone application based on  Html , css , JavaScript, PHP and MySQL . 
  - Using phpMyadmin database.
- - Live Demo : link will be added after the project is finished and deployer . (   Thank you for your patience :)     ) 
- 
-# Project Pages : 
- 
- - Register/Login pages
- - Home - Movies - TV shows 
- - comming soon : Search page - Account page - Paypal payment subscription integration 
+ - Live Demo : http://netflix-clone.karim-moustamid.com/
  
  
  # Project Specifications : 
-  
- - All details and fonctionality will be added soon in the description ...
+ 
+ - Register/Login pages
+ - Home - Movies - TV shows 
+ - Search 
+ - Paypal payment subscription integration 
+ - billing
+ - and mutch more ...
  
   # images : 
   
